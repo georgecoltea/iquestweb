@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-ketchup',
-  templateUrl: './ketchup.component.html',
-  styleUrls: ['./ketchup.component.css']
+  selector: "app-ketchup",
+  templateUrl: "./ketchup.component.html",
+  styleUrls: ["./ketchup.component.css"]
 })
-export class KetchupComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class KetchupComponent {}

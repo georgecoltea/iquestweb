@@ -1,15 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-cheddar',
-  templateUrl: './cheddar.component.html',
-  styleUrls: ['./cheddar.component.css']
+  selector: "app-cheddar",
+  templateUrl: "./cheddar.component.html",
+  styleUrls: ["./cheddar.component.css"]
 })
-export class CheddarComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class CheddarComponent {}
